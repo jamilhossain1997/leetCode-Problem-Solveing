@@ -25,8 +25,8 @@ public class searchInsertPosition {
        
         searchInsertPosition searcher = new searchInsertPosition();
 
-        int[] nums = { 1, 3, 5, 6 };
-        int target = 5;
+        int[] nums = { 3, 2, 2, 3 };
+        int target = 10;
 
         int insertPosition = searcher.searchInsert(nums, target);
 
