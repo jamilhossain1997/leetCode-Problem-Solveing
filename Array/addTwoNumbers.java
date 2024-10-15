@@ -38,7 +38,7 @@ public class addTwoNumbers {
 
     public class Main {
         public static void main(String[] args) {
-            // Creating two numbers as linked lists
+            
             ListNode l1 = new ListNode(2);
             l1.next = new ListNode(4);
             l1.next.next = new ListNode(3);
@@ -50,7 +50,7 @@ public class addTwoNumbers {
             addTwoNumbers solution = new addTwoNumbers();
             ListNode result = solution.Solution(l1, l2);
     
-            // Print the result list
+            
             System.out.print("Result: ");
             while (result != null) {
                 System.out.print(result.val);
