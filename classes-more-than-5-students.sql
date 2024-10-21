@@ -1,0 +1,3 @@
+SELECT class From Courses
+GROUP BY class HAVING 
+COUNT(DISTINCT STUDENT) >=5 ;
